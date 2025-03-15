@@ -1,16 +1,49 @@
-# expressao_app
+# Detector de Emoções com Flutter
 
-A new Flutter project.
+Este é um aplicativo Flutter que utiliza a biblioteca **Google ML Kit** para detectar rostos e classificar emoções com base na expressão facial do usuário.
 
-## Getting Started
+## 📸 Funcionalidades
+- Detecta rostos a partir de uma foto tirada pela câmera ou escolhida da galeria.
+- Analisa a expressão facial e exibe um emoji correspondente.
+- Emoções suportadas:
+  - 😀 **Feliz** (Sorriso detectado)
+  - 🙂 **Neutro** (Pequeno sorriso detectado)
+  - 😢 **Triste** (Sem sorriso detectado)
+  - 😴 **Sonolento** (Olhos fechados detectados)
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tecnologias Utilizadas
+- **Flutter** (SDK para desenvolvimento mobile)
+- **Dart** (Linguagem de programação)
+- **Google ML Kit** (Reconhecimento facial e classificação de emoções)
+- **Image Picker** (Captura de imagem da câmera ou galeria)
 
-A few resources to get you started if this is your first Flutter project:
+## 📦 Instalação
+### 1️⃣ Clone o repositório
+```sh
+ git clone https://github.com/seu-usuario/detector-emocoes-flutter.git
+ cd detector-emocoes-flutter
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2️⃣ Instale as dependências
+```sh
+ flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 3️⃣ Execute o projeto
+```sh
+ flutter run
+```
+
+## 📄 Como Usar
+1. Abra o aplicativo.
+2. Tire uma foto ou escolha uma da galeria.
+3. O app irá analisar a imagem e exibir um emoji correspondente à sua emoção.
+
+## 📷 Exemplo de Uso
+
+<img width="404" alt="image" src="https://github.com/user-attachments/assets/59e518c3-0200-479b-9c69-6c8a208bd47a" alt="Exemplo de tela do aplicativo" width="300" />
+
+## 📌 Requisitos
+- Flutter 3.0+
+- Android SDK / Xcode (para compilar no iOS)
+- Permissões para acesso à câmera e galeria
